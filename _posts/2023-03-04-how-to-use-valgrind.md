@@ -1,7 +1,7 @@
 ---
 title: How to Use Valgrind
 date: 2023-03-04 21:00:00 -0800
-categories: [Software, Tutorial]
+categories: [software, tutorial]
 tags: [valgrind, cpp]    # tag names should always be lowercase
 ---
 
