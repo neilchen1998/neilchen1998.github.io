@@ -103,11 +103,13 @@ int main()
 
 When we run it with Valgrind, it detects that we try to access an uninitialized value and gives us a warning:
 
+```bash
 >HEAP SUMMARY:
 >in use at exit: 128 bytes in 2 blocks
 >total heap usage: 4 allocs, 2 frees, 73,856 bytes allocated
 >LEAK SUMMARY:
 >definitely lost: 128 bytes in 2 blocks
+```
 
 Furthermore, we can add an additional flag *--leak-check=full* to see a more detail diagnosis.
 
